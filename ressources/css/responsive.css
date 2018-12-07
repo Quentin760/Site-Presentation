@@ -1,0 +1,149 @@
+/* --------------- */
+/*   1024-1160px   */
+/* --------------- */
+
+@media only screen and (max-width: 1160px) {
+    .header-main-title {
+        width: 100%;
+    }
+    
+    .row, .header-main-title {
+        padding: 0 2%;
+    }
+}
+
+/* --------------- */
+/*   767-1023px    */
+/*  IpadL = 1024px */
+/* --------------- */
+
+@media only screen and (max-width: 1023px) {
+    #basic-setup {
+        font-size: 16px;
+    }
+    
+    .section-cours, .section-formulaire, .section-footer {
+        padding: 25px 0;
+    }
+    
+    .header-h1 {
+        font-size: 260%;
+    }
+  
+    .main-nav-list-elements {
+        margin-left: 30px;
+    }
+    
+    .h2-format {
+        width: 65%;
+    }
+    
+    .cours-price {
+        font-size: 300%;
+    }
+}
+
+/* --------------- */
+/*    481-767px    */
+/*  IpadP = 768px  */
+/* --------------- */
+
+@media only screen and (max-width: 767px) {
+    #basic-setup {
+        font-size: 14px;
+    }
+    
+    .section-cours, .section-formulaire, .section-footer {
+        padding: 15px 0;
+    }
+    
+    .row, .header-main-title  {
+        padding: 0 5%;
+    }
+    
+    .col {
+        width: 100%;
+    }
+    
+    .cours-box {
+        width: 92%;
+        margin-left: 4%;
+    }
+    
+    .miniature-java {
+        height: 250px;
+    }
+    
+    .cours-price {
+        font-size: 400%;
+    }
+    
+    .h3-format {
+        font-size: 280%;
+    }
+    
+    .cours-subtitle {
+        font-size: 130%;
+    }
+    
+    .text-center-quisuisje {
+        padding: 8% 4%;
+    }
+    
+    .main-nav-list {
+        float: left;
+        font-size: 120%;
+    }
+    
+    .header-main-title {
+        font-size: 70%;
+    }
+    
+    .btn {
+        font-size: 150%;
+    }
+    
+    .h2-format {
+        width: 95%;
+    }
+    
+    .sociaux-footer {
+        float: left;
+    }
+    
+    .copyright-footer {
+        font-size: 130%;
+    }
+    
+    .list-sociaux-elements-footer {
+        font-size: 200%;
+        padding-top: 5px;
+    }
+    
+    .list-sociaux-elements-footer:first-child {
+        padding-left: 0;
+    }
+}
+
+/* --------------- */
+/*     0-480px     */
+/* --------------- */
+
+@media only screen and (max-width: 480px) {
+    .main-nav-list {
+        font-size: 110%;
+        padding-right: 10px;
+    }
+    
+    .h2-format {
+        font-size: 240%;
+    }
+    
+    .header-main-title  {
+        font-size: 90%;
+    }
+    
+    .cours-subtitle {
+        font-size: 110%;
+    }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr" id="basic-setup">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>monSite</title>   
+        <link rel="stylesheet" href="ext/css/normalize.css">
+        <link rel="stylesheet" href="ext/css/grid.css">
+        <link rel="stylesheet" href="ext/css/ionicons.css">
+        <link rel="stylesheet" href="ressources/css/style.css">
+        <link rel="stylesheet" href="ressources/css/responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700" rel="stylesheet">
+    </head>
+    <body>
+    
+        <header class="header-content">
+           
+            <nav class="main-nav">
+                <div class="row">
+                   
+                    <img src="ressources/img/logo.png" width="375px" height="75px" alt="Logo monSite" class="logo-nav">
+                    
+                    <ul class="main-nav-list">
+                        <li class="main-nav-list-elements"><a class="main-nav-list-elements-links" href="#quisuisje">Qui suis-je</a></li>
+                        <li class="main-nav-list-elements"><a class="main-nav-list-elements-links" href="#noscours">Cours</a></li>
+                        <li class="main-nav-list-elements"><a class="main-nav-list-elements-links" href="#formulaire">Contactez-moi</a></li>
+                    </ul>
+                    
+                </div>
+            </nav>
+           
+            <div class="header-main-title">
+                <h1 class="remove-margin-h1 header-h1">Tous les langages informatiques.<br>
+                Facilement. Pour tout le monde.</h1>
+                <a class="btn btn-green" href="https://www.udemy.com/user/allinoneude/">Profile Udemy</a>
+            </div>
+        </header>
+        
+        <section class="section-cours js-trigger" id="noscours">
+            <div class="row">
+                <h2 class="h2-format">Nos cours</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="cours-box">
+                        <div class="cours-box-div">
+                            <h3 class="h3-format h3-format-bottomborder">HTML</h3>
+                            <p class="cours-price">Gratuit</p>
+                            <p class="cours-subtitle">Les bases du HTML en moins de 45 minutes</p>
+                        </div>
+                        <div class="cours-box-div miniature miniature-html"></div>
+                        <div class="cours-box-div">
+                            <a href="#" class="btn btn-green">Inscription</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="cours-box">
+                        <div class="cours-box-div">
+                            <h3 class="h3-format h3-format-bottomborder">CSS</h3>
+                            <p class="cours-price">Gratuit</p>
+                            <p class="cours-subtitle">Les bases du CSS en moins de 45 minutes</p>
+                        </div>
+                        <div class="cours-box-div miniature miniature-css"></div>
+                        <div class="cours-box-div">
+                            <a href="#" class="btn btn-green">Inscription</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="cours-box">
+                        <div class="cours-box-div">
+                            <h3 class="h3-format h3-format-bottomborder">Java</h3>
+                            <p class="cours-price">Gratuit</p>
+                            <p class="cours-subtitle">Les bases du Java en moins de 45 minutes</p>
+                        </div>
+                        <div class="cours-box-div miniature miniature-java"></div>
+                        <div class="cours-box-div">
+                            <a href="#" class="btn btn-green">Inscription</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        
+        <section class="section-quisuisje" id="quisuisje">
+            <div class="col col-nomarg span-1-of-2">
+                <div class="image-left-quisuisje"></div>
+            </div>
+            <div class="col col-nomarg span-1-of-2">
+                <div class="text-center-quisuisje">
+                    <h3 class="h3-format h3-quisuisje">Qui suis-je</h3>
+                    <p class="text-presentation-quisuisje">Olland Alexis, j'ai 25 ans. Depuis 2012, je me forme à l'apprentissage des langages de programmation (comme Java et C#) et à la création de site web (HTML/CSS/JAVASCRIPT).<br><br>
+                    Pour ceux qui ne connaissent pas getCodingKnowledge, c’est un site d'éducation sur le développement web. Pour cela, j'upload des vidéos sur Youtube pour ensuite les introduire sur mon site (et sur Udemy) pour créer mes cours. Mon but ultime est de créer une plateforme possédant un contenu accessible au plus de gens possible avec le plus de tutoriel possible.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-formulaire" id="formulaire">
+            <div class="row">
+                <h2 class="h2-format">Formulaire de contact</h2>
+            </div>
+            
+            <div class="row">
+                <form class="formulaire-formulaire">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="nom">Nom</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="input-formulaire" type="text" name="nom" id="nom" placeholder="Votre nom ..." required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="input-formulaire" type="email" name="e-mail" id="e-mail" placeholder="Votre e-mail ..." required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="sujet">Sujet</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select class="select-formulaire" name="sujet" id="sujet">
+                                <option value="cours">Nos Cours</option>
+                                <option value="qperso">Question personnelle</option>
+                                <option value="psite">Problème sur le site</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="message">Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea class="textarea-formulaire" name="message" id="message" rows="5" placeholder="Votre message ..."></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="btn btn-green btn-radius" type="submit" value="Envoyer !">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <section class="section-footer">
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <p class="copyright-footer">Copyright &copy; by Alex. Tous droits réservés</p>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="sociaux-footer">
+                        <li class="list-sociaux-elements-footer"><a href="#" class="link-sociaux-footer"><i class="ion-social-facebook"></i></a></li>
+                        <li class="list-sociaux-elements-footer"><a href="#" class="link-sociaux-footer"><i class="ion-social-twitter"></i></a></li>
+                        <li class="list-sociaux-elements-footer"><a href="#" class="link-sociaux-footer"><i class="ion-social-linkedin"></i></a></li>
+                        <li class="list-sociaux-elements-footer"><a href="#" class="link-sociaux-footer"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    <script src="ext/js/respond.min.js"></script>
+    <script src="ext/js/selectivizr.min.js"></script>
+    <script src="ext/js/jquery-1.7.min.js"></script>
+    <script src="ext/js/jquery.waypoints.min.js"></script>
+    <script src="ressources/js/notrecode.js"></script>
+        
+    </body>
+    
+    
+    
+</html>
