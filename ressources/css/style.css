@@ -1,7 +1,3 @@
-/* --------------- */
-/* LA BASE DU SITE */
-/* --------------- */
-
 * {
     margin: 0;
     padding: 0;
@@ -23,13 +19,13 @@
     margin: 0 auto;
 }
 
-.section-cours, .section-formulaire, .section-footer {
+.section-cours,
+.section-formulaire,
+.section-footer {
     padding: 45px 0;
 }
 
-/* --------------- */
-/*  RE-UTILISABLE  */
-/* --------------- */
+/******************************* Generic *********************************************/
 
 .remove-margin-h1 {
     margin: 0;
@@ -52,7 +48,7 @@
     margin-right: auto;
     padding-bottom: 10px;
     margin-bottom: 30px;
-    border-bottom: 1px solid red; 
+    border-bottom: 1px solid red;
 }
 
 .h3-format {
@@ -68,9 +64,7 @@
     color: #fff;
 }
 
-/* --------------- */
-/*     HEADER      */
-/* --------------- */
+/************************************************** Header ****************************************************/
 
 .header-content {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/topbg.jpg);
@@ -94,9 +88,7 @@
     border: 1px solid #fff;
 }
 
-/* --------------- */
-/*    NAVIGATION   */
-/* --------------- */
+/*************************************************** Nav Bar ******************************************************/
 
 .logo-nav {
     float: left;
@@ -115,26 +107,24 @@
 
 .main-nav-list-elements-links:link,
 .main-nav-list-elements-links:visited,
-.link-sociaux-footer:link, 
+.link-sociaux-footer:link,
 .link-sociaux-footer:visited {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.5s;
-    transition: border-bottom 0.5s;    
+    transition: border-bottom 0.5s;
 }
 
 .main-nav-list-elements-links:hover,
 .main-nav-list-elements-links:active,
-.link-sociaux-footer:hover, 
+.link-sociaux-footer:hover,
 .link-sociaux-footer:active {
     border-bottom: 2px solid #20cc41;
-} 
+}
 
-/* --------------- */
-/*  NAVIGATION JS  */
-/* --------------- */
+/*********************************************************** js ****************************************/
 
 .nav-js {
     position: fixed;
@@ -145,9 +135,7 @@
     z-index: 9999;
 }
 
-/* --------------- */
-/*    NOS COURS    */
-/* --------------- */
+/* ******************************************************** formation *******************************/
 
 .section-cours {
     background: #f4f4f4;
@@ -158,7 +146,8 @@
     border-radius: 5px;
 }
 
-.cours-box-div, .h3-format-bottomborder {
+.cours-box-div,
+.h3-format-bottomborder {
     padding: 15px;
     border-bottom: 1px solid #e9e9e9;
 }
@@ -193,9 +182,7 @@
     text-align: center;
 }
 
-/* --------------- */
-/*   QUI SUIS-JE   */
-/* --------------- */
+/********************************************** Presentation *****************************/
 
 .col-nomarg {
     margin: 0;
@@ -226,9 +213,7 @@
     text-align: justify;
 }
 
-/* --------------- */
-/*    FORMULAIRE   */
-/* --------------- */
+/************************************* Contact ******************************/
 
 .section-formulaire {
     margin-top: 400px;
@@ -240,7 +225,9 @@
     margin-left: 20%;
 }
 
-.input-formulaire, .select-formulaire, .textarea-formulaire {
+.input-formulaire,
+.select-formulaire,
+.textarea-formulaire {
     width: 100%;
     padding: 6px;
     border: 1px solid #bebebe;
@@ -251,9 +238,7 @@
     border-radius: 5px;
 }
 
-/* --------------- */
-/*     FOOTER      */
-/* --------------- */
+/************************************* Footer **************************************/
 
 .section-footer {
     background: #343434;
@@ -275,4 +260,3 @@
     padding-left: 20px;
     font-size: 200%;
 }
-
