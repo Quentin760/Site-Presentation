@@ -212,6 +212,11 @@
 .contact {
     text-align: center;
 }
+
+.obfusc { 
+    unicode-bidi: bidi-override;
+     direction: rtl;
+}
 /************************************* Footer **************************************/
 
 .section-footer {
