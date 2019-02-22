@@ -137,48 +137,16 @@
 
 /* ******************************************************** formation *******************************/
 
-.section-cours {
+.section-cv {
     background: #f4f4f4;
+    padding-top: 4%
 }
 
-.cours-box {
-    background: #fff;
-    border-radius: 5px;
+.cv-format {
+    padding-top: 4%;
+    margin: 0 auto;
 }
-
-.cours-box-div,
-.h3-format-bottomborder {
-    padding: 15px;
-    border-bottom: 1px solid #e9e9e9;
-}
-
-.cours-price {
-    font-size: 400%;
-    color: #20cc41;
-    margin-bottom: 10px;
-    font-weight: 200;
-    text-transform: uppercase;
-}
-
-.miniature-html {
-    background: url(../img/html-miniature.jpg);
-}
-
-.miniature-css {
-    background: url(../img/css-miniature.jpg);
-}
-
-.miniature-java {
-    background: url(../img/soon.png);
-}
-
-.miniature {
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-}
-
-.cours-box-div:last-child {
+.img-center {
     text-align: center;
 }
 
@@ -196,8 +164,10 @@
 }
 
 .text-center-quisuisje {
-    padding-top: 11%;
-    padding-left: 4%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
 }
 
 .h3-quisuisje {
@@ -208,16 +178,17 @@
 }
 
 .text-presentation-quisuisje {
-    font-size: 90%;
+    font-size: 150%;
     padding-top: 20px;
-    text-align: justify;
+    text-align: center;
 }
 
 /************************************* Contact ******************************/
 
 .section-formulaire {
-    margin-top: 400px;
+    padding-top: 4%
     background: #f4f4f4;
+    text-align: center;
 }
 
 .formulaire-formulaire {
@@ -238,6 +209,9 @@
     border-radius: 5px;
 }
 
+.contact {
+    text-align: center;
+}
 /************************************* Footer **************************************/
 
 .section-footer {
